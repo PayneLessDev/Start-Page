@@ -1,4 +1,39 @@
-/* */
-.h1{
+* {
+  /* padding: 0; */
+  margin: 0;
+  border: 0;
+  font-size: 1rem;
+  font: inherit;
+  line-height: 1;
+  box-sizing: border-box;
+}
 
+ul{
+  list-style-type: none;
+
+}
+
+body{
+  background-color: #282a36;
+  color: #6272a4;
+  margin: 100px;
+}
+
+div{
+  border: solid;
+  border-color: red;
+}
+
+li{
+  border: solid;
+  border-color: blue;
+  text-align: center;
+}
+
+.container{
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px 10px;
 }
